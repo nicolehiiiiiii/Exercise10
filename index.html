@@ -1,1 +1,45 @@
-# Exercise10
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3</title>
+    <style>
+        /* 設定外框與陰影的樣式 */
+        .code-box {
+            border: 1px solid black;            /* 黑色實線外框 */
+            box-shadow: 5px 5px 8px gray;       /* 右下角的灰色陰影 */
+            padding: 20px;                      /* 內邊距 */
+            width: fit-content;                 /* 寬度隨內容調整 */
+            background-color: white;
+            margin: 20px;
+        }
+
+        /* Normal text (一般文字) 的樣式：有襯線字體 */
+        .normal-text {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 20px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        /* Computer code (電腦程式碼) 的樣式：等寬字體 */
+        pre {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="code-box">
+        <p class="normal-text">Code example:</p>
+        <pre>var person = {
+    firstName:"Your first name",
+    lastName :"Your last name",
+    studentId:"Your student ID"
+}</pre>
+    </div>
+
+</body>
+</html>
